@@ -1,0 +1,3 @@
+cod1	parafusos	3.0
+cod2	cravos	4.0
+cod3	tachas	5.0
