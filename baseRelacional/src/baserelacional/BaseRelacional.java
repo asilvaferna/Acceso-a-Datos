@@ -106,6 +106,7 @@ public class BaseRelacional {
 
             System.out.println("Producto:\nCodigo: " + codigo + ", Nombre: " + nome + ", Precio: " + prezo + "€");
         }
+        
 
     }
 
