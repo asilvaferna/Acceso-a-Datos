@@ -46,11 +46,10 @@ public class XMLproba0ler {
                 int eventType = xmlsr.next();
                 switch (eventType) {
                     case XMLStreamReader.START_ELEMENT:
-                        //System.out.println("<" + xmlsr.getLocalName() + ">");
                         String elementName = xmlsr.getLocalName();
                         if (elementName.equals("autor")) {
-                            System.out.println("<" + xmlsr.getLocalName() + " " + xmlsr.getAttributeLocalName(0) + " ='" + xmlsr.getAttributeValue(0) +"'>");
-                            
+                            System.out.println("<" + xmlsr.getLocalName() + " " + xmlsr.getAttributeLocalName(0) 
+                                    + " ='" + xmlsr.getAttributeValue(0) +"'>");
                         } else {
                             System.out.println("<" + xmlsr.getLocalName() + ">");
                         }
