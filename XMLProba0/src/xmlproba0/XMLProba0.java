@@ -57,7 +57,7 @@ public class XMLProba0 {
             xmlsw.writeEndElement(); // cierra <autor>
 
             xmlsw.writeStartElement("autor"); // abre <autor>
-            xmlsw.writeAttribute("codigo", "a1"); // <autor codigo ="a2">
+            xmlsw.writeAttribute("codigo", "a2"); // <autor codigo ="a2">
             xmlsw.writeStartElement("nome"); // abre <nome>
             xmlsw.writeCharacters("Fiodor Dostoyevski"); // <nome>Fiodor Dostoyevski</nome>
             xmlsw.writeEndElement(); // cierra <nome>
